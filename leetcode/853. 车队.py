@@ -11,7 +11,7 @@ class Solution:
         while i < L:
             print(i)
             now_spend = (target-position[i])/m[position[i]]
-            if(now_spend > pre_spend):
+            if now_spend > pre_spend:
                 pre_spend = now_spend
                 ans += 1
             i += 1

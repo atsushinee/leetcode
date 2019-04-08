@@ -10,7 +10,7 @@ class Solution:
         size = m * n
 
         right, down, left, up = 1, 2, 3, 4
-        max_right_step, max_down_step, max_left_step, max_up_step = n-1, m-1, 0, 0
+        max_right_step, max_down_step, max_left_step, max_up_step = n - 1, m - 1, 0, 0
 
         direction = right
         x, y = 0, 0
@@ -52,6 +52,7 @@ class Solution:
                 direction = right
                 max_left_step += 1
         return ans
+
 
 if __name__ == "__main__":
     matrix = [

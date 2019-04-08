@@ -6,12 +6,11 @@ class Solution:
         ans = 0
         for i in range(N):
             v = m.get(s[i])
-            if(i == N - 1 or m.get(s[i+1]) <= v):
+            if i == N - 1 or m.get(s[i + 1]) <= v:
                 ans += v
             else:
-                ans -=v
+                ans -= v
         return ans
-
 
 
 if __name__ == "__main__":

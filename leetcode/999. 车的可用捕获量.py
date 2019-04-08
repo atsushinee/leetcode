@@ -38,7 +38,7 @@ class Solution:
         return 0
 
     def check_start(self, l):
-        if(len(l) > 0 and l[0] == 'p'):
+        if len(l) > 0 and l[0] == 'p':
             return 1
         return 0
 

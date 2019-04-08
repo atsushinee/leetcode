@@ -2,7 +2,7 @@ class Solution:
     def minFallingPathSum(self, A) -> int:
         dp = A[:]
         N = len(A)
-        if(N == 1):
+        if N == 1:
             return A[0][0]
         for i in range(1, N):
             for j in range(N):

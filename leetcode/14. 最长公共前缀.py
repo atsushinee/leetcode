@@ -7,7 +7,7 @@ class Solution:
         first_str_len = len(first_str)
 
         for i in range(first_str_len):
-            for j in range(1,strs_len):
+            for j in range(1, strs_len):
                 if i >= len(strs[j]) or first_str[i] != strs[j][i]:
                     return first_str[:i]
         return first_str
