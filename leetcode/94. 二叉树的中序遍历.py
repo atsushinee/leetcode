@@ -37,6 +37,9 @@ class Solution:
         ans.extend(self.inorderTraversal(root.right))
         return ans
 
+    def inorderTraversal1(self, root: TreeNode) -> List[int]:
+        pass
+
 
 if __name__ == '__main__':
     pass
